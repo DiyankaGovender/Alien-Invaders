@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2667942210502973255
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2667942210502973254}
+  - component: {fileID: 340723287410031152}
+  m_Layer: 0
+  m_Name: EnemySpawnPt1
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2667942210502973254
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2667942210502973255}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2667942211924227383}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &340723287410031152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2667942210502973255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a926c1c395922eb45a0f763c16d5147a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  number: 0
+  sun1: {fileID: 3899903204337675950, guid: 29be7f808d302154d95028be5bb9dc13, type: 3}
+  moon2: {fileID: 5579132876464396738, guid: 5580dbc62f6206041af26eeef498a152, type: 3}
+  earth3: {fileID: 3738622498500570814, guid: 47fa67fda15d94d4f8634e36aed4701c, type: 3}
+  venus4: {fileID: 8795108734576394944, guid: 674f5da615ee24146a7929e8a7e0b4f2, type: 3}
+  uranus5: {fileID: 3040308875291739881, guid: 8d4c201c9fdd6b64dbd425dd00acb48c, type: 3}
+  neptune6: {fileID: 9148036033333506067, guid: d88b90a9f8db0e943bb4e30b54a150d2, type: 3}
+  pluto7: {fileID: 5888047237011789213, guid: 4e79cebb6f420ed4c8db52c29e7b6d14, type: 3}
+  jupiter8: {fileID: 5824910113941308144, guid: 948f50e5e36869147ade3b6614dfcb3e, type: 3}
+  mars9: {fileID: 6574711042238134937, guid: 0dad25f2926c03a4abd8d20cd9bf87d7, type: 3}
+  mercury10: {fileID: 506196286865027986, guid: 0a94e04022694db4bbe266083096e2f9, type: 3}
+  star: {fileID: 8616337263454436196, guid: 76d63847f7d7f4c418ca31179df20afa, type: 3}
+  astronaut: {fileID: 4251233676247440120, guid: ea10d698916b6f34296cd8386fcb6cff, type: 3}
+--- !u!1 &2667942211924227380
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2667942211924227383}
+  m_Layer: 0
+  m_Name: EnemyPattern2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2667942211924227383
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2667942211924227380}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2667942210502973254}
+  - {fileID: 8383631993772703004}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8546965096951821332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8383631993772703004}
+  - component: {fileID: 4143615744658519388}
+  m_Layer: 0
+  m_Name: EnemySpawnPt2
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8383631993772703004
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8546965096951821332}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.75, y: 0, z: -0.19312811}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2667942211924227383}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4143615744658519388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8546965096951821332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a926c1c395922eb45a0f763c16d5147a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  number: 0
+  sun1: {fileID: 3899903204337675950, guid: 29be7f808d302154d95028be5bb9dc13, type: 3}
+  moon2: {fileID: 5579132876464396738, guid: 5580dbc62f6206041af26eeef498a152, type: 3}
+  earth3: {fileID: 3738622498500570814, guid: 47fa67fda15d94d4f8634e36aed4701c, type: 3}
+  venus4: {fileID: 8795108734576394944, guid: 674f5da615ee24146a7929e8a7e0b4f2, type: 3}
+  uranus5: {fileID: 3040308875291739881, guid: 8d4c201c9fdd6b64dbd425dd00acb48c, type: 3}
+  neptune6: {fileID: 9148036033333506067, guid: d88b90a9f8db0e943bb4e30b54a150d2, type: 3}
+  pluto7: {fileID: 5888047237011789213, guid: 4e79cebb6f420ed4c8db52c29e7b6d14, type: 3}
+  jupiter8: {fileID: 5824910113941308144, guid: 948f50e5e36869147ade3b6614dfcb3e, type: 3}
+  mars9: {fileID: 6574711042238134937, guid: 0dad25f2926c03a4abd8d20cd9bf87d7, type: 3}
+  mercury10: {fileID: 506196286865027986, guid: 0a94e04022694db4bbe266083096e2f9, type: 3}
+  star: {fileID: 8616337263454436196, guid: 76d63847f7d7f4c418ca31179df20afa, type: 3}
+  astronaut: {fileID: 4251233676247440120, guid: ea10d698916b6f34296cd8386fcb6cff, type: 3}
